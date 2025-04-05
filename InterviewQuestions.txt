@@ -1,0 +1,94 @@
+Interview Questions
+=========================
+PHP
+========================
+Explain the SOLID principles in PHP.
+Fabonacci series
+Factorial
+most frequent element in an array
+namespace
+type hinting in PHP
+difference between $message and $$message
+Generator in PHP
+Design Pattern 
+Abstract and Interface
+Single Design Pattern with practice
+ServiceProvider in laravel
+APIS
+middleware
+String reverse
+String Palindrom
+Symfony
+Inheritance
+Traits
+Difference between Interface and abstract
+Namespace
+Currying in php
+string reverse without using any function
+palandrom the string is still same in reverse
+sort array without using function
+How to display errors in php
+difference between echo and print
+Limits in php
+
+
+PSR php standard recommendation
+Solid 
+design pattern in software
+INterface or abstract when to use
+What is my role of ClientPoint
+What is ClientPoint
+When to you static keyword
+Php generators
+Describe the Singleton design pattern. Provide a PHP code example.
+__get, __set, __call,__clone in php
+Explain Late Static Binding in PHP. Provide an example.
+Type Hinting in php with example
+Output buffering
+Type Juggling
+Basename in php
+Dependency Injection
+Observer Design Pattern
+
+has one and belongsto
+
+https://www.youtube.com/watch?v=WNU1BEZIjxg&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=16
+
+text nodes,
+comment nodes
+element nodesf
+
+=========================== Laravel
+Yield in laravel
+accessors and mutators
+Queues in laravel
+Jobs in laravel
+how to make IP whitelist in laravel.
+get all commands list in laravel
+What is Elequent ORM 
+One to One
+One to Many
+Many to Many
+Has One Through
+Has Many Through
+One to One (Polymorphic)
+One to Many (Polymorphic)
+Many to Many (Polymorphic)
+
+
+php artisan make:command - Make a new artisan command
+Service Container in Laravel
+Service Provider in Laravel
+Laravel Contracts
+Soft Delete in laravel
+Factory, Seeders
+enable query log in laravel
+Middleware
+Auth
+Facade method laravel
+Dependency injection in Laravel
+Queue in laravel
+
+Validation
+accessors and mutators.
+Events in Laravel
