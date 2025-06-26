@@ -92,3 +92,17 @@ Queue in laravel
 Validation
 accessors and mutators.
 Events in Laravel
+
+
+how to get the customer who makes most orders in last month using mysql
+select c.name, count(o.amount) as total_amount
+INNER JOIN on c.order_id = o.id
+WHERE o.order_date >= DATE_SUB(DATE_FORMAT(CURRENT_DATE()-INTERVAL 1 MONTH),"%Y-m-01")
+and o.order_date<DATE_FORMAT(CURRENT_DATE, "%Y-%m-01")
+GROUP BY
+c.name
+ORDER BY 
+total_amount DESC LIMIT 5
+
+DELETE All users who have not logged from last month
+DELETE FROM users WHERE loggedinDate < NOW()-INTERVAL 1 MONTH
